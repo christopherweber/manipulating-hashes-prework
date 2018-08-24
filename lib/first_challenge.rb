@@ -21,7 +21,7 @@ contacts.each do |person, data|
 
       if attribute == :favorite_icecream_flavors
       value.each do |flavor|
-      [:strawberry]
+      
       end
     end
   end
