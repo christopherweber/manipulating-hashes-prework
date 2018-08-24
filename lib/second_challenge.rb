@@ -6,7 +6,6 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
   new_arr = []
-  new_arr << groceries.values
+  new_arr.push(groceries.values)
   new_arr.flatten
-  new_arr
 end
