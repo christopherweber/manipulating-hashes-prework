@@ -13,12 +13,14 @@ def first_challenge
     }
   }
 
- contacts.each do |person, data|
+  contacts.each do |person, data|
  
- data.each do |attribute, value|
+    data.each do |attribute, value|
  
- attribute == :favorite_icecream_flavors
- end
+      attribute == :favorite_icecream_flavors
+  end
+    end
+      end
    
   #remember to return your newly altered contacts hash!
   contacts
