@@ -13,9 +13,9 @@ def first_challenge
     }
   }
 
-  #your code here
-
-
+ contacts.each do | person, data |
+   puts 
+ 
   #remember to return your newly altered contacts hash!
   contacts
 end
